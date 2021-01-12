@@ -1,0 +1,9 @@
+.listing-page-container {
+    padding: 1vh;
+    font-size: calc(8px + 1vmin);
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow-y: auto;
+}

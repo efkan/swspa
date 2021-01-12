@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+}
+
+.logo-container {
+    flex: 0.3;
+    margin-left: 2vw;
+}
+
+.menu-container {
+    display: flex;
+    flex: 0.7;
+    justify-content: center;
+}
+
+.menu-item {
+    display: flex;
+    margin-right: 2vw;
+    font-size: calc(10px + 1vmin);
+    min-width: 8vmin;
+}
+
+.menu-icon {
+    opacity: 0;
+    font-size: calc(10px + 1vmin);
+    margin-top: 0.4vh;
+    margin-right: 0.4vh;
+}
+
+.menu-item:hover .menu-icon {
+    opacity: 1;
+}
+
+.menu-text {
+    font-family: Goldman;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: calc(28px + 8vmin);
+    margin-top: 1vh;
+    margin-bottom: -2.5vh;
+    text-decoration: none;
+    color: black;
+}

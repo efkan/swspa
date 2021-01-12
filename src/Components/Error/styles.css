@@ -1,0 +1,24 @@
+.error-container {
+    padding: 1vh;
+    height: 87.6vh;
+    font-size: calc(8px + 1vmin);
+    background-color: rgb(238, 238, 238);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.r2d2 {
+    margin-bottom: calc(-20px - 7vh);
+    font-size: calc(10px + 7vmin);
+}
+
+.status {
+    font-size: calc(13px + 10vmin);
+}
+
+.message {
+    font-size: calc(10px + 3vmin);
+}
